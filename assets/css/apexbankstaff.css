@@ -172,6 +172,7 @@ a.border-button:hover {
 	border-bottom: 10px solid #a4c639;
 }
 .title-bar h2 {
+	float: left;
     text-align: center;
     padding: 30px;
     text-transform: capitalize;
@@ -187,8 +188,13 @@ a.border-button:hover {
 	font-weight: 700;
     font-size: 42px;
 }
+.title-bar .brand-name img {
+	float: left;
+	width: 13%;
+    padding: 20px 0px;
+}
 
-.title-bar img {
+.title-bar .brand-info img {
 	padding: 15px;
     width: 144px;
 	/* float: right; */
@@ -910,6 +916,9 @@ footer {
 	background-color: #232323;
 	padding: 80px 0px;
 	color: #fff;
+}
+footer img{
+	width: 70%;
 }
 
 footer h4 {
