@@ -183,7 +183,7 @@ a.border-button:hover {
     overflow: hidden;
 }
 
-.title-bar span{
+.title-bar .brand-name span{
 	color: #a4c639;
 	font-weight: 700;
     font-size: 42px;
@@ -199,14 +199,17 @@ a.border-button:hover {
     width: 144px;
 	/* float: right; */
 }
+.title-bar .brand-info span{
+	font-weight: 700;
+}
 
 .title-bar ul.left-info{
 	float: right;
 }
 
-.title-bar ul.left-info li:first-child {
+/* .title-bar ul.left-info li:first-child {
 	padding-top: 40px;
-}
+} */
 
 .title-bar ul.left-info li {
 	padding-top: 20px;
@@ -219,8 +222,7 @@ a.border-button:hover {
 
 .title-bar ul.left-info li a {
 	color: #a4c639;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 15px;
 }
 
 /* Sub Header Style */
@@ -1209,6 +1211,22 @@ footer .contact-form button.filled-button:hover {
 	.title-bar span{
 		font-size: 21px;
 	}
+	.title-bar .brand-name h2{
+		/* display: none; */
+		font-size: 17px;
+	}
+
+	.title-bar .brand-name span {
+		font-size: 29px;
+	}
+
+	.title-bar .brand-name img {
+		display: none;
+	}
+
+	.title-bar .brand-info{
+		display: none;
+	}
 
 	.sub-header {
 		display: none;
@@ -1328,23 +1346,3 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
-
-@media (max-width: 425px) {
-	.title-bar .brand-name h2{
-		/* display: none; */
-		font-size: 17px;
-	}
-
-	.title-bar .brand-name span {
-		font-size: 29px;
-	}
-
-	.title-bar .brand-name img {
-		display: none;
-	}
-
-	.title-bar .brand-info{
-		display: none;
-	}
-}
-	
