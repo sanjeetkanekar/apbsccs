@@ -176,7 +176,7 @@ a.border-button:hover {
     text-align: center;
     padding: 30px;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     letter-spacing: 1.5px;
     color: black;
@@ -300,7 +300,7 @@ header .navbar {
 }
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
-	font-size: 11px;
+	font-size: 12px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: #fff;
@@ -390,7 +390,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/slide_01.png);
 }
 
 .Modern-Slider .item-2 .img-fill {
@@ -398,7 +398,11 @@ header .navbar {
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/slide_031.png);
+}
+
+.Modern-Slider .item-4 .img-fill {
+	background-image: url(../images/slide_04.png);
 }
 
 .Modern-Slider .NextArrow{
@@ -551,13 +555,26 @@ ul.slick-dots {
 }
 
 .request-form a.border-button {
-	margin-top: 12px;
+	/* margin-top: 12px; */
 	float: right;
 }
 
+.request-form .outsource-btn {
+	text-align: center;
+}
 
+.request-form .outsource-btn a{
+	color: white;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+	transition: all 0.3s;
+	font-weight: 700;
+}
 
-
+.request-form .outsource-btn a:hover {
+    background-color: #fff;
+    color: #a4c639;
+}
 /* Services */
 
 .services {
@@ -583,6 +600,10 @@ ul.slick-dots {
 
 .service-item .down-content p {
 	margin-bottom: 20px;
+}
+
+.callback{
+	margin-top: 140px;
 }
 
 /* award */
@@ -716,51 +737,6 @@ ul.slick-dots {
 	margin-bottom: 30px;
 }
 
-
-/* Testimonials Style */
-
-.about-testimonials {
-	margin-top: 0px!important;
-}
-
-.testimonials {
-	margin-top: 140px;
-	background-color: #f7f7f7;
-	padding: 140px 0px;
-}
-.testimonial-item .inner-content {
-	text-align: center;
-	background-color: #fff;	
-	padding: 30px;
-	border-radius: 5px;
-}
-.testimonial-item p {
-	font-size: 14px;
-	font-weight: 400;
-}
-.testimonial-item h4 {
-	font-size: 19px;
-	font-weight: 700;
-	color: #1e1e1e;
-	letter-spacing: 0.5px;
-	margin-bottom: 0px;
-}
-.testimonial-item span {
-	display: inline-block;
-	margin-top: 8px;
-	font-weight: 600;
-	font-size: 14px;
-	color: #a4c639;
-}
-.testimonial-item img {
-	max-width: 60px;
-	border-radius: 50%;
-	margin: 25px auto 0px auto;
-}
-
-
-
-
 /* Call Back Style */
 
 .callback-services {
@@ -884,35 +860,10 @@ ul.slick-dots {
 	color: #a4c639;
 }
 
-
-
-/* Partners Style */
-
-.contact-partners {
-	margin-top: -8px!important;
-}
-
-.partners {
-	margin-top: 140px;
-	background-color: #f7f7f7;
-	padding: 60px 0px;
-}
-
-.partners .owl-item {
-	text-align: center;
-	cursor: pointer;
-}
-
-.partners .partner-item img {
-	max-width: 156px;
-	margin: auto;
-}
-
-
-
 /* Footer Style */
 
 footer {
+	margin-top: 140px;
 	background-color: #232323;
 	padding: 80px 0px;
 	color: #fff;
@@ -1255,6 +1206,10 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Style */
 @media (max-width: 768px) {
+	.title-bar span{
+		font-size: 21px;
+	}
+
 	.sub-header {
 		display: none;
 	}
@@ -1286,6 +1241,9 @@ footer .contact-form button.filled-button:hover {
 		float: none;
 		margin-top: 30px;
 	}
+	.request-form .outsource-btn {
+		margin-bottom: 60px;
+	}
 	.services .service-item {
 		margin-bottom: 30px;
 	}
@@ -1303,6 +1261,12 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: 1px solid #343434;
 		margin-bottom: 30px;
 		padding-bottom: 30px;
+	}
+	footer .footer-item:first-child {
+		text-align: center;
+	}
+	footer img {
+		width: 50%;
 	}
 	footer .last-item {
 		border-bottom: none;
@@ -1364,3 +1328,23 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
+
+@media (max-width: 425px) {
+	.title-bar .brand-name h2{
+		/* display: none; */
+		font-size: 17px;
+	}
+
+	.title-bar .brand-name span {
+		font-size: 29px;
+	}
+
+	.title-bar .brand-name img {
+		display: none;
+	}
+
+	.title-bar .brand-info{
+		display: none;
+	}
+}
+	
