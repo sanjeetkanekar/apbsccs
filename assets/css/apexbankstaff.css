@@ -1346,3 +1346,12 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
+
+.about-info thead {
+	background-color: #a4c639;
+	color: #fff;
+}
+
+.about-info p{
+	text-align: justify;
+}
