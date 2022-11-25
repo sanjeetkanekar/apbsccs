@@ -63,13 +63,14 @@ a.border-button:hover {
 
 .section-heading {
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 
 .section-heading h2 {
 	font-size: 36px;
 	font-weight: 600;
 	color: #1e1e1e;
+	margin-top: 80px;
 }
 
 .section-heading em {
@@ -537,6 +538,11 @@ ul.slick-dots {
 }
 
 /* Request Form */
+.login {
+	/* background-color: #016cec; */
+	padding: 40px 0px;
+	color: #fff;
+}
 
 .request-form {
 	background-color: #016cec;
@@ -561,11 +567,11 @@ ul.slick-dots {
 	float: right;
 }
 
-.request-form .outsource-btn {
+.request-form .outsource-btn, .login .outsource-btn {
 	text-align: center;
 }
 
-.request-form .outsource-btn a{
+.request-form .outsource-btn a, .login .outsource-btn a{
 	color: white;
     border: 2px solid #fff;
     padding: 10px 30px;
@@ -573,10 +579,17 @@ ul.slick-dots {
 	font-weight: 700;
 }
 
-.request-form .outsource-btn a:hover {
+.login .outsource-btn a{
+	background-color: #016cec;
+	font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* .request-form .outsource-btn a:hover {
     background-color: #fff;
     color: #016cec;
-}
+} */
 
 /* About us top section */
 
@@ -589,8 +602,18 @@ ul.slick-dots {
 }
 /* Services */
 
+.about, .memberhome, .highlightshome {
+	background-color: #f8f8f8;
+	/* margin-top: 80px; */
+}
+
+.about_content, .memberhome_content, .highlights_content{
+	margin-bottom: 80px;
+}
+
 .services {
-	margin-top: 80px;
+	background-color: #ffffff;
+	/* margin-top: 80px; */
 }
 
 table, th, td {
@@ -606,7 +629,6 @@ table, th, td {
 	font-size: 14px;
     color: #666666;
     line-height: 30px;
-	margin: 30px;
 }
 
 .service-item img {
@@ -635,10 +657,6 @@ table, th, td {
 }
 
 /* award */
-
-.award{
-	margin-top: 140px;
-}
 
 .award .award-image {
 	text-align: center;
@@ -710,7 +728,6 @@ table, th, td {
 /* Fun Facts */
 
 .fun-facts {
-	margin-top: 140px;
 	background-image: url(../images/fun-facts-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -837,10 +854,6 @@ table, th, td {
 .contact-us .contact-form {
 	background-color: transparent!important;
 	padding: 0!important;
-}
-
-.callback-form {
-	margin-top: 140px;
 }
 
 .callback-form .contact-form {
@@ -1310,6 +1323,7 @@ footer .contact-form button.filled-button:hover {
 @media (min-width: 992px) {
 	.request-form .outsource-btn a {
 		color: white;
+		background-color: #016cec;
 		border: 2px solid #fff;
 		padding: 10px 30px;
 		transition: all 0.3s;
