@@ -21,26 +21,11 @@ jQuery( document ).ready(function( $ ) {
         });
         
 
-        // $(window).load(function() {
-        //     $('.post-card').hover(function() {
-        //       $(this).find('.description').stop().animate({
-        //         height: "toggle",
-        //         opacity: "toggle"
-        //       }, 300);
-        //     });
-        //   });
-
-        $(window).load(function () {
-            var $container = $('.gallery_items');
-            $container.isotope({
-                filter: '*',
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-        });
+        // 
+        $(document).ready(function(){
+            $('a').nivoLightbox();
+          });
+          
 
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
