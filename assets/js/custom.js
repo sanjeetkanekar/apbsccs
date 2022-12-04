@@ -22,10 +22,8 @@ jQuery( document ).ready(function( $ ) {
         
 
         // 
-        $(document).ready(function(){
-            $('a').nivoLightbox();
-          });
-          
+        // $('#gallery_section a').nivoLightbox();
+         
 
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
