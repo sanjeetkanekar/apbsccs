@@ -634,7 +634,7 @@ ul.slick-dots {
 }
 
 .highlights_content, .comprehensive_content, .awards_content {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .awards_content {
@@ -646,12 +646,20 @@ ul.slick-dots {
 	margin: 30px;
 } */
 
-.more-info h3 {
+/*.more-info h3 {
 	margin-bottom: 30px;
-}
+}*/
 .services {
 	background-color: #ffffff;
 	/* margin-top: 80px; */
+}
+
+.insider {
+	list-style: circle;
+}
+
+.insider li {
+	margin-left: 50px;
 }
 
 table, th, td {

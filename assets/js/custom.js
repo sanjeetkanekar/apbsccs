@@ -19,11 +19,7 @@ jQuery( document ).ready(function( $ ) {
                 $("#preloader").css("visibility", "hidden").fadeOut();
             }, 300);
         });
-        
-
-        // 
-        // $('#gallery_section a').nivoLightbox();
-         
+    
 
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
